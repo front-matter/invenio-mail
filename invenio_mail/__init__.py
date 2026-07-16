@@ -1,4 +1,5 @@
 # SPDX-FileCopyrightText: 2015-2025 CERN.
+# SPDX-FileCopyrightText: 2026 TU Wien.
 # SPDX-License-Identifier: MIT
 
 """Invenio mail module.
@@ -95,6 +96,6 @@ Remember to add Flask-Mail to your ``setup.py`` file as well:
 
 from .ext import InvenioMail
 
-__version__ = "2.3.0"
+__version__ = "2.3.1"
 
 __all__ = ("__version__", "InvenioMail")
